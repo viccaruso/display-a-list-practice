@@ -1,0 +1,22 @@
+export default [
+    'Cranberry Clementine',
+    'Pineapple Pomelo',
+    'Toasted Coconut',
+    'Cranberry Lime',
+    'Ruby Red Grapefruit',
+    'Vanilla',
+    'Raspberry Lime',
+    'Orange Vanilla',
+    'Strawberry Watermelon',
+    'Blueberry Lemonade',
+    'Georgia Peach',
+    'Mandarin',
+    'Triple Berry',
+    'Original',
+    'Lemon',
+    'Lime',
+    'Black Cherry',
+    'Pomegranate',
+    'Pink Apple & Lemon',
+    'Ginger Lime Mule'
+];
