@@ -4,13 +4,15 @@ export function renderPets(petsObj) {
     const petName = document.createElement('p');
     const petType = document.createElement('p');
     const petColor = document.createElement('p');
+    const petToysLabel = document.createElement('p');
     const petToys = document.createElement('ul');
 
     // Set element attributes
     
-    petName.textContent = petsObj.name;
-    petType.textContent = petsObj.type;
-    petColor.textContent = petsObj.color;
+    petName.textContent = `Name: ${petsObj.name}`;
+    petType.textContent = `Kind: ${petsObj.type}`;
+    petColor.textContent = `Colors: ${petsObj.color}`;
+    petToysLabel.textContent = 'Favorite toys: ';
 
     for (let toy of petsObj.favoriteToys) {
         const newToy = document.createElement('li');
@@ -18,9 +20,9 @@ export function renderPets(petsObj) {
         petToys.append(newToy);
     }
 
+
     petDiv.classList.add('pet-class');
-    petDiv.style.border = '1px dotted red';
-    petDiv.append(petName, petType, petColor, petToys);
+    petDiv.append(petName, petType, petColor, petToysLabel, petToys);
     // Return the element
     return petDiv;
 }

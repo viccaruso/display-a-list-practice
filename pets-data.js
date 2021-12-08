@@ -7,7 +7,7 @@ export default [
             'Nylabone',
             'Sticks'
         ],
-        Color: 'Black & White'
+        color: 'Black & White'
     },
     {
         name: 'Kiko',
@@ -17,7 +17,7 @@ export default [
             'Nylabone',
             'Fuzzy slippers'
         ],
-        Color: 'Black & White'
+        color: 'Black & White'
     },
     {
         name: 'Coco',
@@ -26,7 +26,7 @@ export default [
             'Kong',
             'Chuck-it'
         ],
-        Color: 'Brown & White'
+        color: 'Brown & White'
     },
     {
         name: 'Charlie',
@@ -36,6 +36,6 @@ export default [
             'Anything on the edge of a counter',
             'Catnip'
         ],
-        Color: 'Gray stripes'
+        color: 'Gray stripes'
     }
 ];

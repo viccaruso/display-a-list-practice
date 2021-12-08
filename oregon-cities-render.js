@@ -7,8 +7,8 @@ export function renderOregonCities(citiesArr) {
     // Set element attributes
     cityDiv.classList.add('city-class');
     cityNameEl.textContent = citiesArr.name;
-    cityPopulationEl.textContent = citiesArr.population;
-    citySizeEl.textContent = citiesArr.size;
+    cityPopulationEl.textContent = `Pop: ${citiesArr.population}`;
+    citySizeEl.textContent = `Size: ${citiesArr.size}`;
 
     cityDiv.append(cityNameEl, cityPopulationEl, citySizeEl);
     // Return the element

@@ -8,7 +8,7 @@ export function renderBooks(books) {
     
     bookName.textContent = books.title;
     bookISBN.textContent = books.bookISBN;
-    bookAuthor.textContent = `${books.author.firstName} ${books.author.middleName} ${books.author.lastName}`;
+    bookAuthor.textContent = `Author: ${books.author.firstName} ${books.author.middleName} ${books.author.lastName}`;
     
     bookDiv.classList.add('book-class');
     bookDiv.append(bookName, bookISBN, bookAuthor);
